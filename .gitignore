@@ -1,0 +1,51 @@
+# PowerShell specific
+*.ps1xml
+*.ps1xml~
+
+# Configuration files (contains sensitive tokens)
+.ghsearch_config.json
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*~
+*.tmp
+*.bak
+
+# Build artifacts
+build/
+dist/
+publish/
+
+# Test results
+TestResults/
+*.trx
+
+# PowerShell Gallery package files
+*.nupkg
+
+# Documentation build artifacts
+docs/_build/
+site/
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Local development
+dev/
+sandbox/
+
